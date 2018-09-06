@@ -1,2 +1,8 @@
 <!--pages/movie/movie.wxml-->
-<text>pages/movie/movie.wxml</text>
+<view class="nav">
+	<view id="0" class="{{currentTab == 0 ? 'select' : 'normal'}}" bind:tap="switchNav">上映</view>
+	<view class="line">|</view>
+	<view id="1" class="{{currentTab == 1 ? 'select' : 'normal'}}" bind:tap="switchNav">影院</view>
+	<view class="line">|</view>
+	<view id="2" class="{{currentTab == 2 ? 'select' : 'normal'}}" bind:tap="switchNav">我看</view>
+</view>

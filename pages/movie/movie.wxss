@@ -1,1 +1,28 @@
 /* pages/movie/movie.wxss */
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	background-color: #222;
+}
+
+.select, .normal {
+	width: 32%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 13px;
+	color: #fff;
+}
+
+.select {
+	border-bottom: 10px solid #777;
+}
+
+.line {
+	height: 45px;
+	line-height: 45px;
+	font-size: 25px;
+	color: #666;
+}
+
