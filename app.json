@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/movie/movie",
+    "pages/cinema/cinema",
+    "pages/me/me",
+    "pages/movieDetail/monieDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "小烦电影",
+    "navigationBarTextStyle":"#fff"
+  }
+}
