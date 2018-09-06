@@ -3,7 +3,7 @@
     "pages/movie/movie",
     "pages/cinema/cinema",
     "pages/me/me",
-    "pages/movieDetail/monieDetail"
+    "pages/movieDetail/movieDetail"
   ],
   "window":{
     "backgroundTextStyle":"light",

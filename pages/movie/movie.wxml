@@ -11,12 +11,24 @@
 	<swiper-item>
 		<view class="haibao">
 			<swiper indicator-dots="{{false}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}" circular="{{true}}" style="height: 74px;">
-				<block wx:for="{{imgUrls}}">
+				<block wx:for="{{imgUrls}}" wx:key="">
 					<swiper-item>
 						<image class="slide-image" src="{{item}}" style="width: 100%; height: 74px;" />
 					</swiper-item>
 				</block>
 			</swiper>	
+		</view>
+		<view class="items">
+			<block wx:for="{{movies}}" wx:key="{{item.id}}">
+				<view class="item" bind:tap="loadDetail" id="{{item.id}}">
+					<view>
+						<image src="{{item.images.medium}}" style="width:100px;height:150px;" />
+					</view>
+					<view class="name">
+						<text>{{item.title}}</text>
+					</view>
+				</view>
+			</block>
 		</view>
 	</swiper-item>
 	<swiper-item>

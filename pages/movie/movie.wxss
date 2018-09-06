@@ -26,3 +26,22 @@
 	color: #666;
 }
 
+.items {
+	background-color: #f2f2f2;
+	height: 1000px;
+}
+
+.item {
+	width: 32%;
+	height: 200px;
+	margin-top: 10px;
+	text-align: center;
+	float: left;
+}
+
+.name {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 5px;
+}
+
